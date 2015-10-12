@@ -1,3 +1,4 @@
 #!/bin/bash
 
-sudo yum -y install nodejs npm sqlite-devel
+curl -sL https://rpm.nodesource.com/setup | sudo bash -
+sudo yum -y install nodejs sqlite-devel
